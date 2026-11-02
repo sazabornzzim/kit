@@ -9,12 +9,16 @@ AI 코딩 에이전트와 과제를 수행할 때 쓰는 범용 작업 키트입
 | `AGENTS.md` | 에이전트 작업 규칙 (작업 폴더 최상위에 두면 자동으로 읽힘) |
 | `templates/PLAN.md` | 계획 문서 양식 |
 | `templates/REPORT.md` | 결과 보고 양식 |
+| `templates/CONSTRAINTS.md` | 제약조건 대장 (ID·출처·검증 연결) |
+| `templates/FLOW.md` | 서술형 직전에 읽는 과제 흐름 한 장 요약 |
+| `OPTIMIZE.md` | 최적화 가이드 (솔버 우선순위, 타임박스, 서술형 답 틀) |
+| `opt/` | 솔버 설치 확인 스크립트, 범용 CP-SAT 템플릿 |
 | `CHECKLIST.md` | 진행 순서와 실수 방지 목록 |
 | `PROMPTS.md` | 단계별 프롬프트 모음 |
 
 ## 사용법
 Codex에 아래 문장을 붙여넣는다.
 ```
-https://github.com/sazabornzzim/kit 을 clone해줘. 그 안의 AGENTS.md와 templates의 PLAN.md, REPORT.md를 작업 폴더 최상위에 복사하고(이미 있으면 덮어쓰지 마), kit/ 폴더와 .bashrc, .profile, .config 같은 환경 파일은 .gitignore에 추가해서 커밋에 안 들어가게 해줘. 앞으로 AGENTS.md 지침대로 작업하고, 지금은 규칙을 3줄로 요약해줘.
+https://github.com/sazabornzzim/kit 을 clone해줘. 그 안의 AGENTS.md와 templates의 PLAN.md, REPORT.md, CONSTRAINTS.md, FLOW.md를 작업 폴더 최상위에 복사하고(이미 있으면 덮어쓰지 마), kit/ 폴더와 .bashrc, .profile, .config 같은 환경 파일은 .gitignore에 추가해서 커밋에 안 들어가게 해줘. 앞으로 AGENTS.md 지침대로 작업하고, 지금은 규칙을 3줄로 요약해줘.
 ```
 이후 진행 순서는 `CHECKLIST.md` 참고.
